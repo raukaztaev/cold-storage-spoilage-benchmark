@@ -1,0 +1,306 @@
+\begin{tabular}{lllrrrrr}
+\toprule
+Model & Scenario & Category & F1 & MCC & FNR & FPR & F1\_drop \\
+\midrule
+Logistic Regression & Clean & Baseline & 0.9009 & 0.8205 & 0.0578 & 0.1160 & 0.0000 \\
+Ridge Classifier & Clean & Baseline & 0.8196 & 0.6678 & 0.1255 & 0.2013 & 0.0000 \\
+SGD Classifier & Clean & Baseline & 0.9014 & 0.8214 & 0.0592 & 0.1138 & 0.0000 \\
+Decision Tree & Clean & Baseline & 0.9972 & 0.9950 & 0.0028 & 0.0022 & 0.0000 \\
+Random Forest & Clean & Baseline & 0.9965 & 0.9937 & 0.0056 & 0.0011 & 0.0000 \\
+Extra Trees & Clean & Baseline & 0.9979 & 0.9962 & 0.0028 & 0.0011 & 0.0000 \\
+AdaBoost & Clean & Baseline & 0.9908 & 0.9837 & 0.0085 & 0.0077 & 0.0000 \\
+Gradient Boosting & Clean & Baseline & 0.9951 & 0.9912 & 0.0056 & 0.0033 & 0.0000 \\
+XGBoost & Clean & Baseline & 0.9979 & 0.9962 & 0.0028 & 0.0011 & 0.0000 \\
+LightGBM & Clean & Baseline & 0.9965 & 0.9937 & 0.0028 & 0.0033 & 0.0000 \\
+CatBoost & Clean & Baseline & 0.9979 & 0.9962 & 0.0028 & 0.0011 & 0.0000 \\
+KNN & Clean & Baseline & 0.9951 & 0.9912 & 0.0071 & 0.0022 & 0.0000 \\
+GaussianNB & Clean & Baseline & 0.7204 & 0.5939 & 0.3949 & 0.0580 & 0.0000 \\
+SVM & Clean & Baseline & 0.9902 & 0.9826 & 0.0014 & 0.0142 & 0.0000 \\
+MLP & Clean & Baseline & 0.9936 & 0.9887 & 0.0099 & 0.0022 & 0.0000 \\
+Logistic Regression & Temp +1C & Single shift & 0.8825 & 0.7908 & 0.0042 & 0.2024 & 0.0184 \\
+Ridge Classifier & Temp +1C & Single shift & 0.7590 & 0.5560 & 0.0028 & 0.4891 & 0.0606 \\
+SGD Classifier & Temp +1C & Single shift & 0.8836 & 0.7928 & 0.0042 & 0.2002 & 0.0177 \\
+Decision Tree & Temp +1C & Single shift & 0.9668 & 0.9406 & 0.0155 & 0.0405 & 0.0304 \\
+Random Forest & Temp +1C & Single shift & 0.9613 & 0.9309 & 0.0183 & 0.0470 & 0.0351 \\
+Extra Trees & Temp +1C & Single shift & 0.9090 & 0.8407 & 0.1058 & 0.0569 & 0.0889 \\
+AdaBoost & Temp +1C & Single shift & 0.7630 & 0.6325 & 0.3258 & 0.0722 & 0.2279 \\
+Gradient Boosting & Temp +1C & Single shift & 0.9792 & 0.9629 & 0.0056 & 0.0284 & 0.0159 \\
+XGBoost & Temp +1C & Single shift & 0.9888 & 0.9800 & 0.0056 & 0.0131 & 0.0091 \\
+LightGBM & Temp +1C & Single shift & 0.9513 & 0.9132 & 0.0085 & 0.0722 & 0.0452 \\
+CatBoost & Temp +1C & Single shift & 0.9677 & 0.9425 & 0.0071 & 0.0460 & 0.0302 \\
+KNN & Temp +1C & Single shift & 0.8562 & 0.7370 & 0.0931 & 0.1641 & 0.1389 \\
+GaussianNB & Temp +1C & Single shift & 0.7581 & 0.5846 & 0.2708 & 0.1510 & -0.0377 \\
+SVM & Temp +1C & Single shift & 0.9124 & 0.8432 & 0.0155 & 0.1346 & 0.0778 \\
+MLP & Temp +1C & Single shift & 0.9076 & 0.8343 & 0.0169 & 0.1422 & 0.0861 \\
+Logistic Regression & Temp +2C & Single shift & 0.7895 & 0.6175 & 0.0028 & 0.4103 & 0.1114 \\
+Ridge Classifier & Temp +2C & Single shift & 0.6821 & 0.3770 & 0.0028 & 0.7188 & 0.1375 \\
+SGD Classifier & Temp +2C & Single shift & 0.8048 & 0.6472 & 0.0028 & 0.3731 & 0.0966 \\
+Decision Tree & Temp +2C & Single shift & 0.8843 & 0.7956 & 0.1213 & 0.0842 & 0.1129 \\
+Random Forest & Temp +2C & Single shift & 0.8826 & 0.7931 & 0.1255 & 0.0832 & 0.1139 \\
+Extra Trees & Temp +2C & Single shift & 0.7954 & 0.6431 & 0.2214 & 0.1389 & 0.2025 \\
+AdaBoost & Temp +2C & Single shift & 0.4299 & 0.1810 & 0.6629 & 0.1794 & 0.5610 \\
+Gradient Boosting & Temp +2C & Single shift & 0.9609 & 0.9302 & 0.0127 & 0.0525 & 0.0342 \\
+XGBoost & Temp +2C & Single shift & 0.9584 & 0.9258 & 0.0099 & 0.0591 & 0.0395 \\
+LightGBM & Temp +2C & Single shift & 0.9287 & 0.8729 & 0.0085 & 0.1116 & 0.0678 \\
+CatBoost & Temp +2C & Single shift & 0.9593 & 0.9273 & 0.0183 & 0.0503 & 0.0385 \\
+KNN & Temp +2C & Single shift & 0.6377 & 0.3112 & 0.2962 & 0.3906 & 0.3574 \\
+GaussianNB & Temp +2C & Single shift & 0.5347 & 0.2037 & 0.4894 & 0.3096 & 0.1857 \\
+SVM & Temp +2C & Single shift & 0.7210 & 0.4689 & 0.1890 & 0.3403 & 0.2692 \\
+MLP & Temp +2C & Single shift & 0.7029 & 0.4268 & 0.1890 & 0.3851 & 0.2907 \\
+Logistic Regression & Humidity +5\% & Single shift & 0.6824 & 0.3786 & 0.0014 & 0.7199 & 0.2185 \\
+Ridge Classifier & Humidity +5\% & Single shift & 0.7063 & 0.4388 & 0.0028 & 0.6411 & 0.1133 \\
+SGD Classifier & Humidity +5\% & Single shift & 0.6824 & 0.3786 & 0.0014 & 0.7199 & 0.2189 \\
+Decision Tree & Humidity +5\% & Single shift & 0.9745 & 0.9547 & 0.0028 & 0.0383 & 0.0227 \\
+Random Forest & Humidity +5\% & Single shift & 0.9881 & 0.9788 & 0.0042 & 0.0153 & 0.0084 \\
+Extra Trees & Humidity +5\% & Single shift & 0.9867 & 0.9764 & 0.0028 & 0.0186 & 0.0111 \\
+AdaBoost & Humidity +5\% & Single shift & 0.9846 & 0.9726 & 0.0071 & 0.0186 & 0.0062 \\
+Gradient Boosting & Humidity +5\% & Single shift & 0.9895 & 0.9813 & 0.0042 & 0.0131 & 0.0056 \\
+XGBoost & Humidity +5\% & Single shift & 0.9937 & 0.9888 & 0.0028 & 0.0077 & 0.0042 \\
+LightGBM & Humidity +5\% & Single shift & 0.9888 & 0.9802 & 0.0014 & 0.0164 & 0.0076 \\
+CatBoost & Humidity +5\% & Single shift & 0.9916 & 0.9850 & 0.0028 & 0.0109 & 0.0063 \\
+KNN & Humidity +5\% & Single shift & 0.9161 & 0.8506 & 0.0071 & 0.1357 & 0.0790 \\
+GaussianNB & Humidity +5\% & Single shift & 0.2262 & 0.1723 & 0.8660 & 0.0394 & 0.4942 \\
+SVM & Humidity +5\% & Single shift & 0.8369 & 0.7081 & 0.0014 & 0.3009 & 0.1533 \\
+MLP & Humidity +5\% & Single shift & 0.8349 & 0.7045 & 0.0014 & 0.3053 & 0.1587 \\
+Logistic Regression & Humidity -5\% & Single shift & 0.2363 & 0.2831 & 0.8660 & 0.0000 & 0.6646 \\
+Ridge Classifier & Humidity -5\% & Single shift & 0.2340 & 0.2548 & 0.8660 & 0.0088 & 0.5856 \\
+SGD Classifier & Humidity -5\% & Single shift & 0.2363 & 0.2831 & 0.8660 & 0.0000 & 0.6650 \\
+Decision Tree & Humidity -5\% & Single shift & 0.5083 & 0.4616 & 0.6559 & 0.0077 & 0.4888 \\
+Random Forest & Humidity -5\% & Single shift & 0.6246 & 0.5649 & 0.5458 & 0.0000 & 0.3718 \\
+Extra Trees & Humidity -5\% & Single shift & 0.8064 & 0.7347 & 0.3244 & 0.0000 & 0.1915 \\
+AdaBoost & Humidity -5\% & Single shift & 0.5121 & 0.4776 & 0.6559 & 0.0000 & 0.4788 \\
+Gradient Boosting & Humidity -5\% & Single shift & 0.7225 & 0.6504 & 0.4344 & 0.0000 & 0.2725 \\
+XGBoost & Humidity -5\% & Single shift & 0.7097 & 0.6386 & 0.4499 & 0.0000 & 0.2881 \\
+LightGBM & Humidity -5\% & Single shift & 0.4607 & 0.4278 & 0.6982 & 0.0066 & 0.5358 \\
+CatBoost & Humidity -5\% & Single shift & 0.5306 & 0.4913 & 0.6389 & 0.0000 & 0.4673 \\
+KNN & Humidity -5\% & Single shift & 0.4351 & 0.3583 & 0.7094 & 0.0350 & 0.5600 \\
+GaussianNB & Humidity -5\% & Single shift & 0.2363 & 0.2831 & 0.8660 & 0.0000 & 0.4841 \\
+SVM & Humidity -5\% & Single shift & 0.4415 & 0.4180 & 0.7151 & 0.0044 & 0.5487 \\
+MLP & Humidity -5\% & Single shift & 0.5792 & 0.5285 & 0.5924 & 0.0000 & 0.4145 \\
+Logistic Regression & CO2 +20ppm & Single shift & 0.9016 & 0.8218 & 0.0564 & 0.1160 & -0.0007 \\
+Ridge Classifier & CO2 +20ppm & Single shift & 0.8153 & 0.6591 & 0.1255 & 0.2101 & 0.0043 \\
+SGD Classifier & CO2 +20ppm & Single shift & 0.9007 & 0.8202 & 0.0592 & 0.1149 & 0.0006 \\
+Decision Tree & CO2 +20ppm & Single shift & 0.9893 & 0.9813 & 0.0197 & 0.0011 & 0.0079 \\
+Random Forest & CO2 +20ppm & Single shift & 0.9893 & 0.9813 & 0.0197 & 0.0011 & 0.0071 \\
+Extra Trees & CO2 +20ppm & Single shift & 0.9936 & 0.9888 & 0.0127 & 0.0000 & 0.0043 \\
+AdaBoost & CO2 +20ppm & Single shift & 0.9901 & 0.9825 & 0.0113 & 0.0066 & 0.0007 \\
+Gradient Boosting & CO2 +20ppm & Single shift & 0.9929 & 0.9875 & 0.0099 & 0.0033 & 0.0021 \\
+XGBoost & CO2 +20ppm & Single shift & 0.9936 & 0.9888 & 0.0113 & 0.0011 & 0.0043 \\
+LightGBM & CO2 +20ppm & Single shift & 0.9922 & 0.9863 & 0.0141 & 0.0011 & 0.0043 \\
+CatBoost & CO2 +20ppm & Single shift & 0.9872 & 0.9776 & 0.0240 & 0.0011 & 0.0107 \\
+KNN & CO2 +20ppm & Single shift & 0.9767 & 0.9587 & 0.0254 & 0.0164 & 0.0184 \\
+GaussianNB & CO2 +20ppm & Single shift & 0.7321 & 0.6068 & 0.3794 & 0.0580 & -0.0117 \\
+SVM & CO2 +20ppm & Single shift & 0.9874 & 0.9775 & 0.0085 & 0.0131 & 0.0029 \\
+MLP & CO2 +20ppm & Single shift & 0.9844 & 0.9725 & 0.0226 & 0.0066 & 0.0093 \\
+Logistic Regression & CO2 -20ppm & Single shift & 0.9009 & 0.8205 & 0.0578 & 0.1160 & 0.0000 \\
+Ridge Classifier & CO2 -20ppm & Single shift & 0.8201 & 0.6689 & 0.1255 & 0.2002 & -0.0005 \\
+SGD Classifier & CO2 -20ppm & Single shift & 0.8991 & 0.8173 & 0.0635 & 0.1138 & 0.0022 \\
+Decision Tree & CO2 -20ppm & Single shift & 0.9972 & 0.9950 & 0.0014 & 0.0033 & -0.0000 \\
+Random Forest & CO2 -20ppm & Single shift & 0.9958 & 0.9925 & 0.0042 & 0.0033 & 0.0007 \\
+Extra Trees & CO2 -20ppm & Single shift & 0.9986 & 0.9975 & 0.0014 & 0.0011 & -0.0007 \\
+AdaBoost & CO2 -20ppm & Single shift & 0.9707 & 0.9477 & 0.0183 & 0.0317 & 0.0201 \\
+Gradient Boosting & CO2 -20ppm & Single shift & 0.9819 & 0.9677 & 0.0071 & 0.0230 & 0.0132 \\
+XGBoost & CO2 -20ppm & Single shift & 0.9895 & 0.9814 & 0.0014 & 0.0153 & 0.0084 \\
+LightGBM & CO2 -20ppm & Single shift & 0.9826 & 0.9691 & 0.0028 & 0.0252 & 0.0138 \\
+CatBoost & CO2 -20ppm & Single shift & 0.9944 & 0.9900 & 0.0014 & 0.0077 & 0.0035 \\
+KNN & CO2 -20ppm & Single shift & 0.9831 & 0.9699 & 0.0169 & 0.0131 & 0.0120 \\
+GaussianNB & CO2 -20ppm & Single shift & 0.7046 & 0.5758 & 0.4147 & 0.0591 & 0.0158 \\
+SVM & CO2 -20ppm & Single shift & 0.9902 & 0.9826 & 0.0014 & 0.0142 & 0.0000 \\
+MLP & CO2 -20ppm & Single shift & 0.9929 & 0.9875 & 0.0071 & 0.0055 & 0.0007 \\
+Logistic Regression & Light +20Lux & Single shift & 0.7088 & 0.4447 & 0.0028 & 0.6335 & 0.1921 \\
+Ridge Classifier & Light +20Lux & Single shift & 0.7954 & 0.6185 & 0.1255 & 0.2516 & 0.0242 \\
+SGD Classifier & Light +20Lux & Single shift & 0.7014 & 0.4268 & 0.0028 & 0.6565 & 0.2000 \\
+Decision Tree & Light +20Lux & Single shift & 0.8682 & 0.7649 & 0.1269 & 0.1072 & 0.1290 \\
+Random Forest & Light +20Lux & Single shift & 0.7684 & 0.5618 & 0.1227 & 0.3151 & 0.2281 \\
+Extra Trees & Light +20Lux & Single shift & 0.8120 & 0.6526 & 0.1255 & 0.2166 & 0.1858 \\
+AdaBoost & Light +20Lux & Single shift & 0.8760 & 0.8017 & 0.1932 & 0.0274 & 0.1149 \\
+Gradient Boosting & Light +20Lux & Single shift & 0.7387 & 0.5097 & 0.0113 & 0.5339 & 0.2564 \\
+XGBoost & Light +20Lux & Single shift & 0.7946 & 0.6262 & 0.0071 & 0.3928 & 0.2033 \\
+LightGBM & Light +20Lux & Single shift & 0.8182 & 0.6846 & 0.2031 & 0.1171 & 0.1782 \\
+CatBoost & Light +20Lux & Single shift & 0.7892 & 0.6148 & 0.0099 & 0.4026 & 0.2087 \\
+KNN & Light +20Lux & Single shift & 0.9502 & 0.9116 & 0.0042 & 0.0777 & 0.0449 \\
+GaussianNB & Light +20Lux & Single shift & 0.7113 & 0.4507 & 0.0028 & 0.6258 & 0.0091 \\
+SVM & Light +20Lux & Single shift & 0.7935 & 0.6262 & 0.0000 & 0.4037 & 0.1967 \\
+MLP & Light +20Lux & Single shift & 0.6979 & 0.4188 & 0.0014 & 0.6696 & 0.2957 \\
+Logistic Regression & Light -20Lux & Single shift & 0.2363 & 0.2831 & 0.8660 & 0.0000 & 0.6646 \\
+Ridge Classifier & Light -20Lux & Single shift & 0.7148 & 0.5170 & 0.3230 & 0.1685 & 0.1047 \\
+SGD Classifier & Light -20Lux & Single shift & 0.2363 & 0.2831 & 0.8660 & 0.0000 & 0.6650 \\
+Decision Tree & Light -20Lux & Single shift & 0.4605 & 0.2702 & 0.6544 & 0.1204 & 0.5367 \\
+Random Forest & Light -20Lux & Single shift & 0.6154 & 0.5045 & 0.5317 & 0.0416 & 0.3811 \\
+Extra Trees & Light -20Lux & Single shift & 0.6194 & 0.5057 & 0.5261 & 0.0438 & 0.3785 \\
+AdaBoost & Light -20Lux & Single shift & 0.4565 & 0.4352 & 0.7038 & 0.0011 & 0.5343 \\
+Gradient Boosting & Light -20Lux & Single shift & 0.4949 & 0.4014 & 0.6544 & 0.0394 & 0.5001 \\
+XGBoost & Light -20Lux & Single shift & 0.5344 & 0.4335 & 0.6164 & 0.0405 & 0.4635 \\
+LightGBM & Light -20Lux & Single shift & 0.4605 & 0.2702 & 0.6544 & 0.1204 & 0.5360 \\
+CatBoost & Light -20Lux & Single shift & 0.6160 & 0.5062 & 0.5317 & 0.0405 & 0.3819 \\
+KNN & Light -20Lux & Single shift & 0.8873 & 0.8290 & 0.2003 & 0.0022 & 0.1077 \\
+GaussianNB & Light -20Lux & Single shift & 0.7541 & 0.5459 & 0.0028 & 0.5022 & -0.0337 \\
+SVM & Light -20Lux & Single shift & 0.6482 & 0.5845 & 0.5205 & 0.0000 & 0.3420 \\
+MLP & Light -20Lux & Single shift & 0.3905 & 0.3909 & 0.7574 & 0.0000 & 0.6032 \\
+Logistic Regression & Gaussian noise x0.5 & Noise level & 0.7313 & 0.5292 & 0.2804 & 0.1928 & 0.1696 \\
+Ridge Classifier & Gaussian noise x0.5 & Noise level & 0.7306 & 0.5172 & 0.2601 & 0.2214 & 0.0890 \\
+SGD Classifier & Gaussian noise x0.5 & Noise level & 0.7325 & 0.5344 & 0.2849 & 0.1842 & 0.1689 \\
+Decision Tree & Gaussian noise x0.5 & Noise level & 0.7048 & 0.5700 & 0.4090 & 0.0665 & 0.2923 \\
+Random Forest & Gaussian noise x0.5 & Noise level & 0.7598 & 0.6467 & 0.3504 & 0.0466 & 0.2366 \\
+Extra Trees & Gaussian noise x0.5 & Noise level & 0.8402 & 0.7469 & 0.2361 & 0.0422 & 0.1577 \\
+AdaBoost & Gaussian noise x0.5 & Noise level & 0.6657 & 0.5370 & 0.4640 & 0.0573 & 0.3251 \\
+Gradient Boosting & Gaussian noise x0.5 & Noise level & 0.7611 & 0.6151 & 0.3083 & 0.0976 & 0.2340 \\
+XGBoost & Gaussian noise x0.5 & Noise level & 0.7159 & 0.5980 & 0.4082 & 0.0475 & 0.2820 \\
+LightGBM & Gaussian noise x0.5 & Noise level & 0.7046 & 0.5664 & 0.4062 & 0.0709 & 0.2918 \\
+CatBoost & Gaussian noise x0.5 & Noise level & 0.7860 & 0.6735 & 0.3089 & 0.0521 & 0.2118 \\
+KNN & Gaussian noise x0.5 & Noise level & 0.8998 & 0.8294 & 0.1346 & 0.0451 & 0.0952 \\
+GaussianNB & Gaussian noise x0.5 & Noise level & 0.5319 & 0.3898 & 0.6031 & 0.0740 & 0.1885 \\
+SVM & Gaussian noise x0.5 & Noise level & 0.8904 & 0.8123 & 0.1405 & 0.0551 & 0.0998 \\
+MLP & Gaussian noise x0.5 & Noise level & 0.8684 & 0.7765 & 0.1687 & 0.0646 & 0.1252 \\
+Logistic Regression & Gaussian noise x1 & Noise level & 0.6528 & 0.3847 & 0.3487 & 0.2670 & 0.2481 \\
+Ridge Classifier & Gaussian noise x1 & Noise level & 0.6668 & 0.4030 & 0.3250 & 0.2711 & 0.1528 \\
+SGD Classifier & Gaussian noise x1 & Noise level & 0.6514 & 0.3838 & 0.3520 & 0.2648 & 0.2500 \\
+Decision Tree & Gaussian noise x1 & Noise level & 0.5817 & 0.4251 & 0.5444 & 0.0858 & 0.4155 \\
+Random Forest & Gaussian noise x1 & Noise level & 0.6428 & 0.4731 & 0.4635 & 0.1028 & 0.3537 \\
+Extra Trees & Gaussian noise x1 & Noise level & 0.7085 & 0.5554 & 0.3865 & 0.0915 & 0.2894 \\
+AdaBoost & Gaussian noise x1 & Noise level & 0.5150 & 0.3913 & 0.6262 & 0.0600 & 0.4758 \\
+Gradient Boosting & Gaussian noise x1 & Noise level & 0.6495 & 0.4354 & 0.4164 & 0.1656 & 0.3455 \\
+XGBoost & Gaussian noise x1 & Noise level & 0.6434 & 0.4632 & 0.4547 & 0.1160 & 0.3545 \\
+LightGBM & Gaussian noise x1 & Noise level & 0.5873 & 0.4116 & 0.5272 & 0.1061 & 0.4092 \\
+CatBoost & Gaussian noise x1 & Noise level & 0.6524 & 0.4666 & 0.4378 & 0.1249 & 0.3454 \\
+KNN & Gaussian noise x1 & Noise level & 0.7679 & 0.6187 & 0.2903 & 0.1074 & 0.2272 \\
+GaussianNB & Gaussian noise x1 & Noise level & 0.4877 & 0.3022 & 0.6296 & 0.1153 & 0.2327 \\
+SVM & Gaussian noise x1 & Noise level & 0.7523 & 0.5859 & 0.2948 & 0.1315 & 0.2379 \\
+MLP & Gaussian noise x1 & Noise level & 0.7373 & 0.5528 & 0.2973 & 0.1578 & 0.2563 \\
+Logistic Regression & Gaussian noise x2 & Noise level & 0.5991 & 0.2585 & 0.3667 & 0.3729 & 0.3018 \\
+Ridge Classifier & Gaussian noise x2 & Noise level & 0.5973 & 0.2749 & 0.3915 & 0.3326 & 0.2223 \\
+SGD Classifier & Gaussian noise x2 & Noise level & 0.5969 & 0.2550 & 0.3698 & 0.3733 & 0.3045 \\
+Decision Tree & Gaussian noise x2 & Noise level & 0.4782 & 0.2994 & 0.6415 & 0.1092 & 0.5190 \\
+Random Forest & Gaussian noise x2 & Noise level & 0.5417 & 0.3190 & 0.5532 & 0.1569 & 0.4548 \\
+Extra Trees & Gaussian noise x2 & Noise level & 0.5857 & 0.3789 & 0.5097 & 0.1422 & 0.4121 \\
+AdaBoost & Gaussian noise x2 & Noise level & 0.3788 & 0.2526 & 0.7444 & 0.0724 & 0.6121 \\
+Gradient Boosting & Gaussian noise x2 & Noise level & 0.5625 & 0.2874 & 0.4920 & 0.2313 & 0.4326 \\
+XGBoost & Gaussian noise x2 & Noise level & 0.5609 & 0.3140 & 0.5145 & 0.1904 & 0.4370 \\
+LightGBM & Gaussian noise x2 & Noise level & 0.4938 & 0.2739 & 0.6085 & 0.1505 & 0.5027 \\
+CatBoost & Gaussian noise x2 & Noise level & 0.5463 & 0.2858 & 0.5241 & 0.2061 & 0.4516 \\
+KNN & Gaussian noise x2 & Noise level & 0.5672 & 0.3454 & 0.5230 & 0.1586 & 0.4279 \\
+GaussianNB & Gaussian noise x2 & Noise level & 0.4449 & 0.2112 & 0.6533 & 0.1639 & 0.2755 \\
+SVM & Gaussian noise x2 & Noise level & 0.5899 & 0.3288 & 0.4635 & 0.2190 & 0.4003 \\
+MLP & Gaussian noise x2 & Noise level & 0.6168 & 0.3345 & 0.4000 & 0.2681 & 0.3768 \\
+Logistic Regression & Gaussian noise x3 & Noise level & 0.5735 & 0.1977 & 0.3794 & 0.4214 & 0.3274 \\
+Ridge Classifier & Gaussian noise x3 & Noise level & 0.5538 & 0.2036 & 0.4423 & 0.3538 & 0.2658 \\
+SGD Classifier & Gaussian noise x3 & Noise level & 0.5749 & 0.2002 & 0.3777 & 0.4206 & 0.3264 \\
+Decision Tree & Gaussian noise x3 & Noise level & 0.4353 & 0.2434 & 0.6779 & 0.1223 & 0.5619 \\
+Random Forest & Gaussian noise x3 & Noise level & 0.4943 & 0.2432 & 0.5927 & 0.1864 & 0.5022 \\
+Extra Trees & Gaussian noise x3 & Noise level & 0.5266 & 0.2907 & 0.5636 & 0.1713 & 0.4713 \\
+AdaBoost & Gaussian noise x3 & Noise level & 0.3316 & 0.1778 & 0.7769 & 0.0947 & 0.6593 \\
+Gradient Boosting & Gaussian noise x3 & Noise level & 0.5247 & 0.2279 & 0.5283 & 0.2527 & 0.4703 \\
+XGBoost & Gaussian noise x3 & Noise level & 0.5217 & 0.2436 & 0.5444 & 0.2254 & 0.4762 \\
+LightGBM & Gaussian noise x3 & Noise level & 0.4600 & 0.2170 & 0.6339 & 0.1746 & 0.5365 \\
+CatBoost & Gaussian noise x3 & Noise level & 0.5094 & 0.2205 & 0.5532 & 0.2379 & 0.4885 \\
+KNN & Gaussian noise x3 & Noise level & 0.4732 & 0.2431 & 0.6257 & 0.1611 & 0.5219 \\
+GaussianNB & Gaussian noise x3 & Noise level & 0.4244 & 0.1647 & 0.6640 & 0.1912 & 0.2960 \\
+SVM & Gaussian noise x3 & Noise level & 0.4819 & 0.1956 & 0.5884 & 0.2295 & 0.5083 \\
+MLP & Gaussian noise x3 & Noise level & 0.5683 & 0.2472 & 0.4446 & 0.3098 & 0.4253 \\
+Logistic Regression & Temp +2C \& Humidity -5\% & Combined shift & 0.2363 & 0.2831 & 0.8660 & 0.0000 & 0.6646 \\
+Ridge Classifier & Temp +2C \& Humidity -5\% & Combined shift & 0.7760 & 0.5782 & 0.1255 & 0.2943 & 0.0436 \\
+SGD Classifier & Temp +2C \& Humidity -5\% & Combined shift & 0.2363 & 0.2831 & 0.8660 & 0.0000 & 0.6650 \\
+Decision Tree & Temp +2C \& Humidity -5\% & Combined shift & 0.5083 & 0.4616 & 0.6559 & 0.0077 & 0.4888 \\
+Random Forest & Temp +2C \& Humidity -5\% & Combined shift & 0.5481 & 0.5027 & 0.6220 & 0.0011 & 0.4484 \\
+Extra Trees & Temp +2C \& Humidity -5\% & Combined shift & 0.7023 & 0.5950 & 0.4344 & 0.0350 & 0.2956 \\
+AdaBoost & Temp +2C \& Humidity -5\% & Combined shift & 0.4974 & 0.4648 & 0.6685 & 0.0011 & 0.4935 \\
+Gradient Boosting & Temp +2C \& Humidity -5\% & Combined shift & 0.6206 & 0.5616 & 0.5501 & 0.0000 & 0.3744 \\
+XGBoost & Temp +2C \& Humidity -5\% & Combined shift & 0.6771 & 0.5937 & 0.4795 & 0.0131 & 0.3208 \\
+LightGBM & Temp +2C \& Humidity -5\% & Combined shift & 0.4541 & 0.4229 & 0.7038 & 0.0066 & 0.5424 \\
+CatBoost & Temp +2C \& Humidity -5\% & Combined shift & 0.5306 & 0.4913 & 0.6389 & 0.0000 & 0.4673 \\
+KNN & Temp +2C \& Humidity -5\% & Combined shift & 0.2776 & 0.0513 & 0.8068 & 0.1543 & 0.7174 \\
+GaussianNB & Temp +2C \& Humidity -5\% & Combined shift & 0.2363 & 0.2831 & 0.8660 & 0.0000 & 0.4841 \\
+SVM & Temp +2C \& Humidity -5\% & Combined shift & 0.3555 & 0.1870 & 0.7546 & 0.1050 & 0.6347 \\
+MLP & Temp +2C \& Humidity -5\% & Combined shift & 0.4635 & 0.2585 & 0.6460 & 0.1346 & 0.5301 \\
+Logistic Regression & Temp +1C \& CO2 +20ppm & Combined shift & 0.8825 & 0.7908 & 0.0042 & 0.2024 & 0.0184 \\
+Ridge Classifier & Temp +1C \& CO2 +20ppm & Combined shift & 0.7474 & 0.5315 & 0.0028 & 0.5208 & 0.0722 \\
+SGD Classifier & Temp +1C \& CO2 +20ppm & Combined shift & 0.8836 & 0.7928 & 0.0042 & 0.2002 & 0.0177 \\
+Decision Tree & Temp +1C \& CO2 +20ppm & Combined shift & 0.9604 & 0.9293 & 0.0240 & 0.0438 & 0.0367 \\
+Random Forest & Temp +1C \& CO2 +20ppm & Combined shift & 0.9465 & 0.9041 & 0.0268 & 0.0646 & 0.0500 \\
+Extra Trees & Temp +1C \& CO2 +20ppm & Combined shift & 0.8919 & 0.8083 & 0.1100 & 0.0821 & 0.1060 \\
+AdaBoost & Temp +1C \& CO2 +20ppm & Combined shift & 0.7648 & 0.6368 & 0.3258 & 0.0689 & 0.2260 \\
+Gradient Boosting & Temp +1C \& CO2 +20ppm & Combined shift & 0.9674 & 0.9418 & 0.0155 & 0.0394 & 0.0276 \\
+XGBoost & Temp +1C \& CO2 +20ppm & Combined shift & 0.9547 & 0.9190 & 0.0339 & 0.0449 & 0.0432 \\
+LightGBM & Temp +1C \& CO2 +20ppm & Combined shift & 0.9402 & 0.8927 & 0.0240 & 0.0777 & 0.0563 \\
+CatBoost & Temp +1C \& CO2 +20ppm & Combined shift & 0.9577 & 0.9244 & 0.0254 & 0.0470 & 0.0402 \\
+KNN & Temp +1C \& CO2 +20ppm & Combined shift & 0.8484 & 0.7224 & 0.1001 & 0.1718 & 0.1466 \\
+GaussianNB & Temp +1C \& CO2 +20ppm & Combined shift & 0.7539 & 0.5782 & 0.2764 & 0.1521 & -0.0335 \\
+SVM & Temp +1C \& CO2 +20ppm & Combined shift & 0.8876 & 0.7978 & 0.0197 & 0.1772 & 0.1026 \\
+MLP & Temp +1C \& CO2 +20ppm & Combined shift & 0.8911 & 0.8030 & 0.0310 & 0.1597 & 0.1026 \\
+Logistic Regression & Light -20Lux \& Humidity +5\% & Combined shift & 0.7323 & 0.4988 & 0.0028 & 0.5635 & 0.1686 \\
+Ridge Classifier & Light -20Lux \& Humidity +5\% & Combined shift & 0.7116 & 0.4515 & 0.0028 & 0.6247 & 0.1079 \\
+SGD Classifier & Light -20Lux \& Humidity +5\% & Combined shift & 0.7326 & 0.4996 & 0.0028 & 0.5624 & 0.1687 \\
+Decision Tree & Light -20Lux \& Humidity +5\% & Combined shift & 0.4520 & 0.2393 & 0.6544 & 0.1422 & 0.5451 \\
+Random Forest & Light -20Lux \& Humidity +5\% & Combined shift & 0.6161 & 0.5039 & 0.5303 & 0.0427 & 0.3804 \\
+Extra Trees & Light -20Lux \& Humidity +5\% & Combined shift & 0.6183 & 0.4999 & 0.5247 & 0.0481 & 0.3795 \\
+AdaBoost & Light -20Lux \& Humidity +5\% & Combined shift & 0.4541 & 0.4229 & 0.7038 & 0.0066 & 0.5368 \\
+Gradient Boosting & Light -20Lux \& Humidity +5\% & Combined shift & 0.4949 & 0.4014 & 0.6544 & 0.0394 & 0.5001 \\
+XGBoost & Light -20Lux \& Humidity +5\% & Combined shift & 0.5344 & 0.4335 & 0.6164 & 0.0405 & 0.4635 \\
+LightGBM & Light -20Lux \& Humidity +5\% & Combined shift & 0.4520 & 0.2393 & 0.6544 & 0.1422 & 0.5444 \\
+CatBoost & Light -20Lux \& Humidity +5\% & Combined shift & 0.6172 & 0.5074 & 0.5303 & 0.0405 & 0.3806 \\
+KNN & Light -20Lux \& Humidity +5\% & Combined shift & 0.8152 & 0.6772 & 0.2003 & 0.1258 & 0.1798 \\
+GaussianNB & Light -20Lux \& Humidity +5\% & Combined shift & 0.1901 & -0.1134 & 0.8646 & 0.2243 & 0.5303 \\
+SVM & Light -20Lux \& Humidity +5\% & Combined shift & 0.8449 & 0.7164 & 0.1086 & 0.1696 & 0.1453 \\
+MLP & Light -20Lux \& Humidity +5\% & Combined shift & 0.8537 & 0.7388 & 0.1396 & 0.1204 & 0.1399 \\
+Logistic Regression & All sensors biased & Combined shift & 0.2363 & 0.2831 & 0.8660 & 0.0000 & 0.6646 \\
+Ridge Classifier & All sensors biased & Combined shift & 0.7908 & 0.6091 & 0.1255 & 0.2615 & 0.0287 \\
+SGD Classifier & All sensors biased & Combined shift & 0.2363 & 0.2831 & 0.8660 & 0.0000 & 0.6650 \\
+Decision Tree & All sensors biased & Combined shift & 0.2319 & 0.2799 & 0.8688 & 0.0000 & 0.7653 \\
+Random Forest & All sensors biased & Combined shift & 0.2319 & 0.2799 & 0.8688 & 0.0000 & 0.7645 \\
+Extra Trees & All sensors biased & Combined shift & 0.4531 & 0.2470 & 0.6559 & 0.1357 & 0.5448 \\
+AdaBoost & All sensors biased & Combined shift & 0.2363 & 0.2831 & 0.8660 & 0.0000 & 0.7545 \\
+Gradient Boosting & All sensors biased & Combined shift & 0.2363 & 0.2831 & 0.8660 & 0.0000 & 0.7587 \\
+XGBoost & All sensors biased & Combined shift & 0.2668 & 0.2688 & 0.8434 & 0.0131 & 0.7311 \\
+LightGBM & All sensors biased & Combined shift & 0.1043 & 0.1782 & 0.9450 & 0.0000 & 0.8922 \\
+CatBoost & All sensors biased & Combined shift & 0.2363 & 0.2831 & 0.8660 & 0.0000 & 0.7616 \\
+KNN & All sensors biased & Combined shift & 0.2328 & 0.0448 & 0.8477 & 0.1214 & 0.7623 \\
+GaussianNB & All sensors biased & Combined shift & 0.2363 & 0.2831 & 0.8660 & 0.0000 & 0.4841 \\
+SVM & All sensors biased & Combined shift & 0.2186 & 0.2702 & 0.8773 & 0.0000 & 0.7716 \\
+MLP & All sensors biased & Combined shift & 0.2363 & 0.2831 & 0.8660 & 0.0000 & 0.7573 \\
+Logistic Regression & Drift Light -> -40Lux & Temporal drift & 0.3835 & 0.3489 & 0.7574 & 0.0175 & 0.5174 \\
+Ridge Classifier & Drift Light -> -40Lux & Temporal drift & 0.7486 & 0.5624 & 0.2694 & 0.1718 & 0.0710 \\
+SGD Classifier & Drift Light -> -40Lux & Temporal drift & 0.3716 & 0.3442 & 0.7673 & 0.0153 & 0.5297 \\
+Decision Tree & Drift Light -> -40Lux & Temporal drift & 0.5338 & 0.3495 & 0.5825 & 0.1138 & 0.4634 \\
+Random Forest & Drift Light -> -40Lux & Temporal drift & 0.6589 & 0.5479 & 0.4838 & 0.0394 & 0.3376 \\
+Extra Trees & Drift Light -> -40Lux & Temporal drift & 0.6708 & 0.5573 & 0.4683 & 0.0416 & 0.3271 \\
+AdaBoost & Drift Light -> -40Lux & Temporal drift & 0.5508 & 0.4996 & 0.6178 & 0.0044 & 0.4400 \\
+Gradient Boosting & Drift Light -> -40Lux & Temporal drift & 0.5626 & 0.4582 & 0.5882 & 0.0405 & 0.4324 \\
+XGBoost & Drift Light -> -40Lux & Temporal drift & 0.5890 & 0.4830 & 0.5614 & 0.0394 & 0.4089 \\
+LightGBM & Drift Light -> -40Lux & Temporal drift & 0.5229 & 0.3441 & 0.5966 & 0.1083 & 0.4736 \\
+CatBoost & Drift Light -> -40Lux & Temporal drift & 0.6595 & 0.5473 & 0.4824 & 0.0405 & 0.3384 \\
+KNN & Drift Light -> -40Lux & Temporal drift & 0.9085 & 0.8578 & 0.1664 & 0.0011 & 0.0865 \\
+GaussianNB & Drift Light -> -40Lux & Temporal drift & 0.7080 & 0.4323 & 0.1622 & 0.4103 & 0.0124 \\
+SVM & Drift Light -> -40Lux & Temporal drift & 0.7587 & 0.6842 & 0.3879 & 0.0011 & 0.2315 \\
+MLP & Drift Light -> -40Lux & Temporal drift & 0.5495 & 0.5039 & 0.6206 & 0.0011 & 0.4441 \\
+Logistic Regression & Drift Temp -> +3C & Temporal drift & 0.8316 & 0.6954 & 0.0141 & 0.2987 & 0.0692 \\
+Ridge Classifier & Drift Temp -> +3C & Temporal drift & 0.7147 & 0.4479 & 0.0339 & 0.5722 & 0.1049 \\
+SGD Classifier & Drift Temp -> +3C & Temporal drift & 0.8422 & 0.7151 & 0.0141 & 0.2757 & 0.0592 \\
+Decision Tree & Drift Temp -> +3C & Temporal drift & 0.9318 & 0.8786 & 0.0649 & 0.0558 & 0.0653 \\
+Random Forest & Drift Temp -> +3C & Temporal drift & 0.9283 & 0.8724 & 0.0691 & 0.0580 & 0.0682 \\
+Extra Trees & Drift Temp -> +3C & Temporal drift & 0.8724 & 0.7778 & 0.1467 & 0.0799 & 0.1255 \\
+AdaBoost & Drift Temp -> +3C & Temporal drift & 0.6270 & 0.4414 & 0.4725 & 0.1204 & 0.3638 \\
+Gradient Boosting & Drift Temp -> +3C & Temporal drift & 0.9737 & 0.9532 & 0.0071 & 0.0361 & 0.0213 \\
+XGBoost & Drift Temp -> +3C & Temporal drift & 0.9819 & 0.9678 & 0.0042 & 0.0252 & 0.0160 \\
+LightGBM & Drift Temp -> +3C & Temporal drift & 0.9475 & 0.9066 & 0.0071 & 0.0799 & 0.0490 \\
+CatBoost & Drift Temp -> +3C & Temporal drift & 0.9656 & 0.9386 & 0.0113 & 0.0460 & 0.0323 \\
+KNN & Drift Temp -> +3C & Temporal drift & 0.7225 & 0.4977 & 0.2581 & 0.2418 & 0.2725 \\
+GaussianNB & Drift Temp -> +3C & Temporal drift & 0.5961 & 0.3362 & 0.4556 & 0.2188 & 0.1243 \\
+SVM & Drift Temp -> +3C & Temporal drift & 0.7752 & 0.5883 & 0.1876 & 0.2199 & 0.2150 \\
+MLP & Drift Temp -> +3C & Temporal drift & 0.7925 & 0.6141 & 0.1382 & 0.2429 & 0.2012 \\
+Logistic Regression & Drift all sensors & Temporal drift & 0.3208 & 0.3208 & 0.8068 & 0.0088 & 0.5800 \\
+Ridge Classifier & Drift all sensors & Temporal drift & 0.7027 & 0.5147 & 0.3583 & 0.1433 & 0.1169 \\
+SGD Classifier & Drift all sensors & Temporal drift & 0.3208 & 0.3208 & 0.8068 & 0.0088 & 0.5805 \\
+Decision Tree & Drift all sensors & Temporal drift & 0.3314 & 0.3472 & 0.8011 & 0.0011 & 0.6658 \\
+Random Forest & Drift all sensors & Temporal drift & 0.3059 & 0.3322 & 0.8195 & 0.0000 & 0.6906 \\
+Extra Trees & Drift all sensors & Temporal drift & 0.4824 & 0.3476 & 0.6530 & 0.0711 & 0.5155 \\
+AdaBoost & Drift all sensors & Temporal drift & 0.2974 & 0.3233 & 0.8251 & 0.0011 & 0.6935 \\
+Gradient Boosting & Drift all sensors & Temporal drift & 0.3018 & 0.3294 & 0.8223 & 0.0000 & 0.6933 \\
+XGBoost & Drift all sensors & Temporal drift & 0.2926 & 0.3140 & 0.8279 & 0.0033 & 0.7053 \\
+LightGBM & Drift all sensors & Temporal drift & 0.2051 & 0.2602 & 0.8858 & 0.0000 & 0.7914 \\
+CatBoost & Drift all sensors & Temporal drift & 0.3396 & 0.3556 & 0.7955 & 0.0000 & 0.6583 \\
+KNN & Drift all sensors & Temporal drift & 0.5475 & 0.3909 & 0.5811 & 0.0864 & 0.4476 \\
+GaussianNB & Drift all sensors & Temporal drift & 0.2731 & 0.2737 & 0.8392 & 0.0131 & 0.4473 \\
+SVM & Drift all sensors & Temporal drift & 0.4156 & 0.3594 & 0.7292 & 0.0252 & 0.5746 \\
+MLP & Drift all sensors & Temporal drift & 0.4314 & 0.4196 & 0.7250 & 0.0000 & 0.5622 \\
+\bottomrule
+\end{tabular}

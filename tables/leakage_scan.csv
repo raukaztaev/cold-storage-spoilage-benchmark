@@ -1,0 +1,5 @@
+feature,best_single_split_acc,threshold,flag
+Light,0.7582,14.3507,ok
+Humidity,0.7412,94.0,ok
+Temp,0.7076,23.0,ok
+CO2,0.5968,406.0,ok

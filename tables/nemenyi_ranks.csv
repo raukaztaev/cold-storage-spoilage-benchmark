@@ -1,0 +1,16 @@
+Model,avg_rank
+Random Forest,2.0
+Extra Trees,2.6
+CatBoost,3.2
+XGBoost,4.2
+Gradient Boosting,4.7
+LightGBM,5.6
+Decision Tree,6.8
+MLP,7.5
+KNN,8.4
+SVM,10.2
+AdaBoost,10.8
+Logistic Regression,12.4
+SGD Classifier,12.6
+Ridge Classifier,14.0
+GaussianNB,15.0

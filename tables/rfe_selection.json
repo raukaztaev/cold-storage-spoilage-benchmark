@@ -1,0 +1,24 @@
+{
+  "n_features_in": 8,
+  "optimal_n_features": 8,
+  "selected_features": [
+    "num__Temp",
+    "num__Humidity",
+    "num__Light",
+    "num__CO2",
+    "cat__Fruit_Banana",
+    "cat__Fruit_Orange",
+    "cat__Fruit_Pineapple",
+    "cat__Fruit_Tomato"
+  ],
+  "ranking": {
+    "num__Temp": 1,
+    "num__Humidity": 1,
+    "num__Light": 1,
+    "num__CO2": 1,
+    "cat__Fruit_Banana": 1,
+    "cat__Fruit_Orange": 1,
+    "cat__Fruit_Pineapple": 1,
+    "cat__Fruit_Tomato": 1
+  }
+}

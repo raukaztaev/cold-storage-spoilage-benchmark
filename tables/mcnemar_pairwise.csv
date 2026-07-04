@@ -1,0 +1,106 @@
+Model A,Model B,"b (A right, B wrong)","c (A wrong, B right)",statistic,p_value,significant_0.05
+GaussianNB,XGBoost,2,332,324.0749,1.8764105716038402e-72,True
+GaussianNB,CatBoost,2,332,324.0749,1.8764105716038402e-72,True
+Extra Trees,GaussianNB,332,2,324.0749,1.8764105716038402e-72,True
+Decision Tree,GaussianNB,331,2,323.0751,3.0980837644215183e-72,True
+Random Forest,GaussianNB,330,2,322.0753,5.115171508667468e-72,True
+GaussianNB,LightGBM,2,330,322.0753,5.115171508667468e-72,True
+Gradient Boosting,GaussianNB,328,2,320.0758,1.39443927513936e-71,True
+KNN,GaussianNB,329,3,318.1476,3.667750387318702e-71,True
+GaussianNB,MLP,2,326,318.0762,3.80142276941376e-71,True
+AdaBoost,GaussianNB,324,4,310.247,1.929425878232e-69,True
+GaussianNB,SVM,11,330,296.5513,1.858390303714279e-66,True
+Ridge Classifier,CatBoost,0,270,268.0037,3.0902897770856265e-60,True
+Ridge Classifier,XGBoost,0,270,268.0037,3.0902897770856265e-60,True
+Ridge Classifier,Extra Trees,0,270,268.0037,3.0902897770856265e-60,True
+Ridge Classifier,Random Forest,0,268,266.0037,8.431449771983201e-60,True
+Ridge Classifier,Decision Tree,1,270,265.0332,1.3722589239284459e-59,True
+Ridge Classifier,LightGBM,2,270,262.0919,6.005320932232513e-59,True
+Ridge Classifier,Gradient Boosting,1,267,262.0336,6.1837271711162575e-59,True
+Ridge Classifier,KNN,2,268,260.0926,1.6380727316947906e-58,True
+Ridge Classifier,MLP,4,268,254.2978,3.0027076225061715e-57,True
+Ridge Classifier,AdaBoost,2,262,254.0947,3.3249658463254184e-57,True
+Ridge Classifier,SVM,2,261,253.0951,5.491684643026842e-57,True
+Logistic Regression,Extra Trees,1,145,140.0616,2.580677181269896e-32,True
+SGD Classifier,Extra Trees,1,144,139.0621,4.268962541216728e-32,True
+Logistic Regression,XGBoost,2,146,138.1689,6.693404631204143e-32,True
+Logistic Regression,CatBoost,2,146,138.1689,6.693404631204143e-32,True
+Logistic Regression,LightGBM,1,143,138.0625,7.06188479177203e-32,True
+Logistic Regression,Decision Tree,2,145,137.1701,1.1068740325793774e-31,True
+SGD Classifier,CatBoost,2,145,137.1701,1.1068740325793774e-31,True
+SGD Classifier,XGBoost,2,145,137.1701,1.1068740325793774e-31,True
+SGD Classifier,LightGBM,1,142,137.0629,1.168230830266154e-31,True
+Logistic Regression,Random Forest,2,144,136.1712,1.8304466314011503e-31,True
+SGD Classifier,Decision Tree,2,144,136.1712,1.8304466314011503e-31,True
+SGD Classifier,Random Forest,2,143,135.1724,3.0270792221561386e-31,True
+Logistic Regression,Gradient Boosting,2,142,134.1736,5.006087535790265e-31,True
+SGD Classifier,Gradient Boosting,2,141,133.1748,8.279061750644025e-31,True
+Logistic Regression,KNN,4,144,130.5473,3.110322333805529e-30,True
+SGD Classifier,KNN,5,144,127.8121,1.2338989026755708e-29,True
+Logistic Regression,MLP,5,143,126.8176,2.0366008058950956e-29,True
+Logistic Regression,AdaBoost,3,137,126.35,2.577666962860493e-29,True
+SGD Classifier,MLP,5,142,125.8231,3.3614670873785246e-29,True
+Logistic Regression,SVM,3,136,125.3525,4.2611030814709744e-29,True
+SGD Classifier,AdaBoost,5,138,121.8462,2.4945032088413434e-28,True
+SGD Classifier,SVM,5,137,120.8521,4.11706739050116e-28,True
+SGD Classifier,GaussianNB,244,57,114.9369,8.124281067518476e-27,True
+Logistic Regression,GaussianNB,243,57,114.0833,1.2494563672702349e-26,True
+Logistic Regression,Ridge Classifier,133,7,111.6071,4.3561536119068865e-26,True
+Ridge Classifier,SGD Classifier,9,136,109.4897,1.2676436457489467e-25,True
+Ridge Classifier,GaussianNB,196,136,10.4849,0.0012035154206133595,True
+SVM,CatBoost,1,12,1.0,0.00341796875,True
+SVM,XGBoost,1,12,1.0,0.00341796875,True
+Extra Trees,AdaBoost,11,1,1.0,0.00634765625,True
+Decision Tree,SVM,11,1,1.0,0.00634765625,True
+Extra Trees,SVM,13,2,2.0,0.00738525390625,True
+AdaBoost,XGBoost,2,12,2.0,0.012939453125,True
+AdaBoost,CatBoost,2,12,2.0,0.012939453125,True
+Extra Trees,MLP,6,0,0.0,0.03125,True
+MLP,XGBoost,0,6,0.0,0.03125,True
+MLP,CatBoost,0,6,0.0,0.03125,True
+Random Forest,SVM,12,3,3.0,0.03515625,True
+SVM,LightGBM,3,12,3.0,0.03515625,True
+Decision Tree,AdaBoost,12,3,3.0,0.03515625,True
+Random Forest,AdaBoost,10,2,2.0,0.03857421875,True
+AdaBoost,LightGBM,2,10,2.0,0.03857421875,True
+Decision Tree,MLP,5,0,0.0,0.0625,False
+Gradient Boosting,SVM,11,4,4.0,0.11846923828124999,False
+KNN,SVM,11,4,4.0,0.11846923828124999,False
+Gradient Boosting,CatBoost,0,4,0.0,0.125,False
+Random Forest,MLP,4,0,0.0,0.125,False
+Gradient Boosting,XGBoost,0,4,0.0,0.125,False
+KNN,CatBoost,0,4,0.0,0.125,False
+Extra Trees,Gradient Boosting,4,0,0.0,0.125,False
+KNN,XGBoost,0,4,0.0,0.125,False
+AdaBoost,Gradient Boosting,3,9,3.0,0.14599609375,False
+AdaBoost,KNN,4,10,4.0,0.1795654296875,False
+Extra Trees,KNN,5,1,1.0,0.21875,False
+MLP,LightGBM,1,5,1.0,0.21875,False
+Decision Tree,Gradient Boosting,3,0,0.0,0.25,False
+SVM,MLP,6,11,6.0,0.332305908203125,False
+Decision Tree,KNN,4,1,1.0,0.375,False
+AdaBoost,MLP,6,10,6.0,0.454498291015625,False
+Random Forest,Gradient Boosting,2,0,0.0,0.5,False
+Random Forest,Extra Trees,0,2,0.0,0.5,False
+Random Forest,XGBoost,0,2,0.0,0.5,False
+Random Forest,CatBoost,0,2,0.0,0.5,False
+Gradient Boosting,LightGBM,1,3,1.0,0.625,False
+Gradient Boosting,MLP,3,1,1.0,0.625,False
+Random Forest,KNN,3,1,1.0,0.625,False
+Extra Trees,LightGBM,3,1,1.0,0.625,False
+LightGBM,CatBoost,2,4,2.0,0.6875,False
+XGBoost,LightGBM,4,2,2.0,0.6875,False
+KNN,MLP,4,2,2.0,0.6875,False
+KNN,LightGBM,3,5,3.0,0.7265625,False
+AdaBoost,SVM,11,10,10.0,1.0,False
+XGBoost,CatBoost,0,0,0.0,1.0,False
+Gradient Boosting,KNN,3,3,3.0,1.0,False
+Random Forest,LightGBM,2,2,2.0,1.0,False
+Decision Tree,LightGBM,3,2,2.0,1.0,False
+Decision Tree,XGBoost,0,1,0.0,1.0,False
+Decision Tree,Extra Trees,1,2,1.0,1.0,False
+Decision Tree,Random Forest,2,1,1.0,1.0,False
+Logistic Regression,SGD Classifier,2,3,2.0,1.0,False
+Extra Trees,XGBoost,1,1,1.0,1.0,False
+Extra Trees,CatBoost,1,1,1.0,1.0,False
+Decision Tree,CatBoost,0,1,0.0,1.0,False

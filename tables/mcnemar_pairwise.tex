@@ -1,0 +1,115 @@
+\begin{table}
+\caption{McNemar pairwise tests on the held-out set.}
+\label{tab:mcnemar}
+\begin{tabular}{llrrrrr}
+\toprule
+Model A & Model B & b (A right, B wrong) & c (A wrong, B right) & statistic & p\_value & significant\_0.05 \\
+\midrule
+GaussianNB & XGBoost & 2 & 332 & 324.0749 & 0.0000 & True \\
+GaussianNB & CatBoost & 2 & 332 & 324.0749 & 0.0000 & True \\
+Extra Trees & GaussianNB & 332 & 2 & 324.0749 & 0.0000 & True \\
+Decision Tree & GaussianNB & 331 & 2 & 323.0751 & 0.0000 & True \\
+Random Forest & GaussianNB & 330 & 2 & 322.0753 & 0.0000 & True \\
+GaussianNB & LightGBM & 2 & 330 & 322.0753 & 0.0000 & True \\
+Gradient Boosting & GaussianNB & 328 & 2 & 320.0758 & 0.0000 & True \\
+KNN & GaussianNB & 329 & 3 & 318.1476 & 0.0000 & True \\
+GaussianNB & MLP & 2 & 326 & 318.0762 & 0.0000 & True \\
+AdaBoost & GaussianNB & 324 & 4 & 310.2470 & 0.0000 & True \\
+GaussianNB & SVM & 11 & 330 & 296.5513 & 0.0000 & True \\
+Ridge Classifier & CatBoost & 0 & 270 & 268.0037 & 0.0000 & True \\
+Ridge Classifier & XGBoost & 0 & 270 & 268.0037 & 0.0000 & True \\
+Ridge Classifier & Extra Trees & 0 & 270 & 268.0037 & 0.0000 & True \\
+Ridge Classifier & Random Forest & 0 & 268 & 266.0037 & 0.0000 & True \\
+Ridge Classifier & Decision Tree & 1 & 270 & 265.0332 & 0.0000 & True \\
+Ridge Classifier & LightGBM & 2 & 270 & 262.0919 & 0.0000 & True \\
+Ridge Classifier & Gradient Boosting & 1 & 267 & 262.0336 & 0.0000 & True \\
+Ridge Classifier & KNN & 2 & 268 & 260.0926 & 0.0000 & True \\
+Ridge Classifier & MLP & 4 & 268 & 254.2978 & 0.0000 & True \\
+Ridge Classifier & AdaBoost & 2 & 262 & 254.0947 & 0.0000 & True \\
+Ridge Classifier & SVM & 2 & 261 & 253.0951 & 0.0000 & True \\
+Logistic Regression & Extra Trees & 1 & 145 & 140.0616 & 0.0000 & True \\
+SGD Classifier & Extra Trees & 1 & 144 & 139.0621 & 0.0000 & True \\
+Logistic Regression & XGBoost & 2 & 146 & 138.1689 & 0.0000 & True \\
+Logistic Regression & CatBoost & 2 & 146 & 138.1689 & 0.0000 & True \\
+Logistic Regression & LightGBM & 1 & 143 & 138.0625 & 0.0000 & True \\
+Logistic Regression & Decision Tree & 2 & 145 & 137.1701 & 0.0000 & True \\
+SGD Classifier & CatBoost & 2 & 145 & 137.1701 & 0.0000 & True \\
+SGD Classifier & XGBoost & 2 & 145 & 137.1701 & 0.0000 & True \\
+SGD Classifier & LightGBM & 1 & 142 & 137.0629 & 0.0000 & True \\
+Logistic Regression & Random Forest & 2 & 144 & 136.1712 & 0.0000 & True \\
+SGD Classifier & Decision Tree & 2 & 144 & 136.1712 & 0.0000 & True \\
+SGD Classifier & Random Forest & 2 & 143 & 135.1724 & 0.0000 & True \\
+Logistic Regression & Gradient Boosting & 2 & 142 & 134.1736 & 0.0000 & True \\
+SGD Classifier & Gradient Boosting & 2 & 141 & 133.1748 & 0.0000 & True \\
+Logistic Regression & KNN & 4 & 144 & 130.5473 & 0.0000 & True \\
+SGD Classifier & KNN & 5 & 144 & 127.8121 & 0.0000 & True \\
+Logistic Regression & MLP & 5 & 143 & 126.8176 & 0.0000 & True \\
+Logistic Regression & AdaBoost & 3 & 137 & 126.3500 & 0.0000 & True \\
+SGD Classifier & MLP & 5 & 142 & 125.8231 & 0.0000 & True \\
+Logistic Regression & SVM & 3 & 136 & 125.3525 & 0.0000 & True \\
+SGD Classifier & AdaBoost & 5 & 138 & 121.8462 & 0.0000 & True \\
+SGD Classifier & SVM & 5 & 137 & 120.8521 & 0.0000 & True \\
+SGD Classifier & GaussianNB & 244 & 57 & 114.9369 & 0.0000 & True \\
+Logistic Regression & GaussianNB & 243 & 57 & 114.0833 & 0.0000 & True \\
+Logistic Regression & Ridge Classifier & 133 & 7 & 111.6071 & 0.0000 & True \\
+Ridge Classifier & SGD Classifier & 9 & 136 & 109.4897 & 0.0000 & True \\
+Ridge Classifier & GaussianNB & 196 & 136 & 10.4849 & 0.0012 & True \\
+SVM & CatBoost & 1 & 12 & 1.0000 & 0.0034 & True \\
+SVM & XGBoost & 1 & 12 & 1.0000 & 0.0034 & True \\
+Extra Trees & AdaBoost & 11 & 1 & 1.0000 & 0.0063 & True \\
+Decision Tree & SVM & 11 & 1 & 1.0000 & 0.0063 & True \\
+Extra Trees & SVM & 13 & 2 & 2.0000 & 0.0074 & True \\
+AdaBoost & XGBoost & 2 & 12 & 2.0000 & 0.0129 & True \\
+AdaBoost & CatBoost & 2 & 12 & 2.0000 & 0.0129 & True \\
+Extra Trees & MLP & 6 & 0 & 0.0000 & 0.0312 & True \\
+MLP & XGBoost & 0 & 6 & 0.0000 & 0.0312 & True \\
+MLP & CatBoost & 0 & 6 & 0.0000 & 0.0312 & True \\
+Random Forest & SVM & 12 & 3 & 3.0000 & 0.0352 & True \\
+SVM & LightGBM & 3 & 12 & 3.0000 & 0.0352 & True \\
+Decision Tree & AdaBoost & 12 & 3 & 3.0000 & 0.0352 & True \\
+Random Forest & AdaBoost & 10 & 2 & 2.0000 & 0.0386 & True \\
+AdaBoost & LightGBM & 2 & 10 & 2.0000 & 0.0386 & True \\
+Decision Tree & MLP & 5 & 0 & 0.0000 & 0.0625 & False \\
+Gradient Boosting & SVM & 11 & 4 & 4.0000 & 0.1185 & False \\
+KNN & SVM & 11 & 4 & 4.0000 & 0.1185 & False \\
+Gradient Boosting & CatBoost & 0 & 4 & 0.0000 & 0.1250 & False \\
+Random Forest & MLP & 4 & 0 & 0.0000 & 0.1250 & False \\
+Gradient Boosting & XGBoost & 0 & 4 & 0.0000 & 0.1250 & False \\
+KNN & CatBoost & 0 & 4 & 0.0000 & 0.1250 & False \\
+Extra Trees & Gradient Boosting & 4 & 0 & 0.0000 & 0.1250 & False \\
+KNN & XGBoost & 0 & 4 & 0.0000 & 0.1250 & False \\
+AdaBoost & Gradient Boosting & 3 & 9 & 3.0000 & 0.1460 & False \\
+AdaBoost & KNN & 4 & 10 & 4.0000 & 0.1796 & False \\
+Extra Trees & KNN & 5 & 1 & 1.0000 & 0.2188 & False \\
+MLP & LightGBM & 1 & 5 & 1.0000 & 0.2188 & False \\
+Decision Tree & Gradient Boosting & 3 & 0 & 0.0000 & 0.2500 & False \\
+SVM & MLP & 6 & 11 & 6.0000 & 0.3323 & False \\
+Decision Tree & KNN & 4 & 1 & 1.0000 & 0.3750 & False \\
+AdaBoost & MLP & 6 & 10 & 6.0000 & 0.4545 & False \\
+Random Forest & Gradient Boosting & 2 & 0 & 0.0000 & 0.5000 & False \\
+Random Forest & Extra Trees & 0 & 2 & 0.0000 & 0.5000 & False \\
+Random Forest & XGBoost & 0 & 2 & 0.0000 & 0.5000 & False \\
+Random Forest & CatBoost & 0 & 2 & 0.0000 & 0.5000 & False \\
+Gradient Boosting & LightGBM & 1 & 3 & 1.0000 & 0.6250 & False \\
+Gradient Boosting & MLP & 3 & 1 & 1.0000 & 0.6250 & False \\
+Random Forest & KNN & 3 & 1 & 1.0000 & 0.6250 & False \\
+Extra Trees & LightGBM & 3 & 1 & 1.0000 & 0.6250 & False \\
+LightGBM & CatBoost & 2 & 4 & 2.0000 & 0.6875 & False \\
+XGBoost & LightGBM & 4 & 2 & 2.0000 & 0.6875 & False \\
+KNN & MLP & 4 & 2 & 2.0000 & 0.6875 & False \\
+KNN & LightGBM & 3 & 5 & 3.0000 & 0.7266 & False \\
+AdaBoost & SVM & 11 & 10 & 10.0000 & 1.0000 & False \\
+XGBoost & CatBoost & 0 & 0 & 0.0000 & 1.0000 & False \\
+Gradient Boosting & KNN & 3 & 3 & 3.0000 & 1.0000 & False \\
+Random Forest & LightGBM & 2 & 2 & 2.0000 & 1.0000 & False \\
+Decision Tree & LightGBM & 3 & 2 & 2.0000 & 1.0000 & False \\
+Decision Tree & XGBoost & 0 & 1 & 0.0000 & 1.0000 & False \\
+Decision Tree & Extra Trees & 1 & 2 & 1.0000 & 1.0000 & False \\
+Decision Tree & Random Forest & 2 & 1 & 1.0000 & 1.0000 & False \\
+Logistic Regression & SGD Classifier & 2 & 3 & 2.0000 & 1.0000 & False \\
+Extra Trees & XGBoost & 1 & 1 & 1.0000 & 1.0000 & False \\
+Extra Trees & CatBoost & 1 & 1 & 1.0000 & 1.0000 & False \\
+Decision Tree & CatBoost & 0 & 1 & 0.0000 & 1.0000 & False \\
+\bottomrule
+\end{tabular}
+\end{table}

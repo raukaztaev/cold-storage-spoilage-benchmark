@@ -1,0 +1,6 @@
+Temp,Humidity,Light,CO2,Fruit,y_true,y_pred,error_type,p_bad
+24,95,19.42099897,318,Banana,1,0,false_negative,0.38333333333333336
+24,95,16.02789778,344,Banana,1,0,false_negative,0.3
+24,91,12.27113269,247,Banana,1,0,false_negative,0.42
+25,95,18.38606989,271,Banana,0,1,false_positive,0.8433333333333334
+24,82,12.55068787,248,Banana,1,0,false_negative,0.35

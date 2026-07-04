@@ -1,0 +1,5 @@
+feature,lower_fence,upper_fence,n_outliers,pct_outliers
+Temp,20.0,28.0,0,0.0
+Humidity,87.5,99.5,503,6.198
+Light,0.85,24.3,482,5.94
+CO2,184.5,476.5,254,3.13

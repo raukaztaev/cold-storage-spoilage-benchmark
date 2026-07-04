@@ -1,0 +1,14 @@
+\begin{table}
+\caption{Held-out performance after Optuna tuning.}
+\label{tab:tuned}
+\begin{tabular}{lrrrrrrrrrrrrr}
+\toprule
+Model & Accuracy & Balanced Accuracy & Precision & Recall & F1 & ROC AUC & PR AUC & MCC & Cohen Kappa & Log Loss & Brier Score & Train Time (s) & Predict Time (s) \\
+\midrule
+CatBoost & 0.9994 & 0.9995 & 0.9986 & 1.0000 & 0.9993 & 0.9999 & 0.9999 & 0.9987 & 0.9987 & 0.0052 & 0.0009 & 0.6771 & 0.0031 \\
+XGBoost & 0.9982 & 0.9980 & 0.9986 & 0.9972 & 0.9979 & 1.0000 & 0.9999 & 0.9962 & 0.9962 & 0.0077 & 0.0016 & 0.2240 & 0.0036 \\
+LightGBM & 0.9982 & 0.9980 & 0.9986 & 0.9972 & 0.9979 & 1.0000 & 1.0000 & 0.9962 & 0.9962 & 0.0123 & 0.0019 & 1.6714 & 0.0112 \\
+Random Forest & 0.9969 & 0.9966 & 0.9986 & 0.9944 & 0.9965 & 1.0000 & 1.0000 & 0.9937 & 0.9937 & 0.0110 & 0.0021 & 0.2503 & 0.0281 \\
+\bottomrule
+\end{tabular}
+\end{table}

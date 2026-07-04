@@ -1,0 +1,14 @@
+\begin{table}
+\caption{Default vs Optuna-tuned ensemble performance.}
+\label{tab:tuningcomp}
+\begin{tabular}{lrrrrr}
+\toprule
+Model & F1\_default & F1\_tuned & dF1 & ROC\_AUC\_default & ROC\_AUC\_tuned \\
+\midrule
+CatBoost & 0.9979 & 0.9993 & 0.0014 & 0.9999 & 0.9999 \\
+XGBoost & 0.9979 & 0.9979 & -0.0000 & 0.9999 & 1.0000 \\
+LightGBM & 0.9965 & 0.9979 & 0.0014 & 0.9999 & 1.0000 \\
+Random Forest & 0.9965 & 0.9965 & -0.0000 & 1.0000 & 1.0000 \\
+\bottomrule
+\end{tabular}
+\end{table}

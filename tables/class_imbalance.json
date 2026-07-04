@@ -1,0 +1,11 @@
+{
+  "counts": {
+    "Good": 4569,
+    "Bad": 3546
+  },
+  "proportions": {
+    "Good": 0.563,
+    "Bad": 0.437
+  },
+  "imbalance_ratio": 1.2885
+}

@@ -1,0 +1,11 @@
+Model,mean_F1_under_perturbation,worst_F1,mean_F1_drop,max_F1_drop
+XGBoost,0.8465,0.5344,0.1514,0.4635
+Extra Trees,0.8462,0.6194,0.1517,0.3785
+Gradient Boosting,0.8364,0.4949,0.1587,0.5001
+CatBoost,0.8322,0.5306,0.1657,0.4673
+Random Forest,0.8295,0.6154,0.167,0.3811
+KNN,0.8215,0.4351,0.1735,0.56
+Decision Tree,0.8028,0.4605,0.1944,0.5367
+LightGBM,0.7959,0.4605,0.2005,0.536
+SVM,0.7868,0.4415,0.2034,0.5487
+Logistic Regression,0.6657,0.2363,0.2352,0.6646

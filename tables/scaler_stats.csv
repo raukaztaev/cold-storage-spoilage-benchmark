@@ -1,0 +1,5 @@
+feature,train_mean,train_scale
+Temp,23.8182,1.2688
+Humidity,93.2654,3.2271
+Light,22.7938,42.9653
+CO2,325.6677,60.0218

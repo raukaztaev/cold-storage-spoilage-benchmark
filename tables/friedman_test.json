@@ -1,0 +1,7 @@
+{
+  "statistic": 65.56085229324664,
+  "p_value": 1.2146839507144438e-08,
+  "significant_0.05": true,
+  "n_models": 15,
+  "n_folds": 5
+}

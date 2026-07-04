@@ -1,0 +1,16 @@
+\begin{table}
+\caption{CV F1 for different feature subsets.}
+\label{tab:featsel}
+\begin{tabular}{lrrr}
+\toprule
+subset & n\_features & cv\_f1\_mean & cv\_f1\_std \\
+\midrule
+All features & 5 & 0.9984 & 0.0012 \\
+Sensors only (no Fruit) & 4 & 0.9945 & 0.0022 \\
+Top-3 (Light,Humidity,Temp) & 3 & 0.9819 & 0.0019 \\
+No Light & 4 & 0.9537 & 0.0087 \\
+Top-2 (Light,Humidity) & 2 & 0.8947 & 0.0104 \\
+Light only & 1 & 0.7681 & 0.0133 \\
+\bottomrule
+\end{tabular}
+\end{table}

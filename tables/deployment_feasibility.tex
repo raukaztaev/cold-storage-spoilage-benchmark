@@ -1,0 +1,25 @@
+\begin{table}
+\caption{Edge-deployment feasibility (500 KB / 1 ms budget).}
+\label{tab:deploy}
+\begin{tabular}{lrrrrrrr}
+\toprule
+Model & Fit Time (s) & Predict Time (s) & Latency (ms/sample) & Throughput (samples/s) & Peak Fit Memory (MB) & Model Size (KB) & edge\_feasible \\
+\midrule
+Logistic Regression & 0.0307 & 0.0024 & 0.0015 & 674362.7000 & 1.3710 & 2.8900 & True \\
+Ridge Classifier & 0.0231 & 0.0022 & 0.0014 & 735356.9000 & 1.6140 & 2.8900 & True \\
+GaussianNB & 0.0134 & 0.0015 & 0.0009 & 1049370.5000 & 1.2700 & 2.9500 & True \\
+SGD Classifier & 0.0463 & 0.0029 & 0.0018 & 563546.6000 & 1.2750 & 3.1200 & True \\
+Decision Tree & 0.0199 & 0.0033 & 0.0020 & 496833.0000 & 1.2740 & 8.9200 & True \\
+AdaBoost & 0.1747 & 0.0054 & 0.0033 & 302277.3000 & 1.2690 & 30.6400 & True \\
+SVM & 0.4513 & 0.0345 & 0.0213 & 46997.2000 & 1.2750 & 59.9600 & True \\
+MLP & 3.3348 & 0.0037 & 0.0023 & 435001.1000 & 1.2720 & 71.4500 & True \\
+Gradient Boosting & 0.3206 & 0.0034 & 0.0021 & 476093.8000 & 1.2950 & 134.7500 & True \\
+CatBoost & 0.4970 & 0.0024 & 0.0015 & 684054.8000 & 1.2730 & 440.1100 & True \\
+XGBoost & 0.4308 & 0.0038 & 0.0023 & 426449.7000 & 1.2740 & 464.1200 & True \\
+KNN & 0.0135 & 0.0257 & 0.0158 & 63185.2000 & 1.2770 & 550.3400 & False \\
+LightGBM & 0.7153 & 0.0064 & 0.0039 & 254895.4000 & 3.7760 & 1034.0900 & False \\
+Random Forest & 0.8410 & 0.0266 & 0.0164 & 61043.1000 & 4.5840 & 2603.3300 & False \\
+Extra Trees & 0.4539 & 0.0278 & 0.0172 & 58274.1000 & 3.5510 & 5735.2100 & False \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,15 @@
+\begin{table}
+\caption{All misclassified test samples (best model).}
+\label{tab:mis}
+\begin{tabular}{rrrrlrrlr}
+\toprule
+Temp & Humidity & Light & CO2 & Fruit & y\_true & y\_pred & error\_type & p\_bad \\
+\midrule
+24 & 95 & 19.4210 & 318 & Banana & 1 & 0 & false\_negative & 0.3833 \\
+24 & 95 & 16.0279 & 344 & Banana & 1 & 0 & false\_negative & 0.3000 \\
+24 & 91 & 12.2711 & 247 & Banana & 1 & 0 & false\_negative & 0.4200 \\
+25 & 95 & 18.3861 & 271 & Banana & 0 & 1 & false\_positive & 0.8433 \\
+24 & 82 & 12.5507 & 248 & Banana & 1 & 0 & false\_negative & 0.3500 \\
+\bottomrule
+\end{tabular}
+\end{table}

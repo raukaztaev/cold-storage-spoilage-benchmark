@@ -1,0 +1,5 @@
+Model,F1_default,F1_tuned,dF1,ROC_AUC_default,ROC_AUC_tuned
+CatBoost,0.9979,0.9993,0.0014,0.9999,0.9999
+XGBoost,0.9979,0.9979,-0.0,0.9999,1.0
+LightGBM,0.9965,0.9979,0.0014,0.9999,1.0
+Random Forest,0.9965,0.9965,-0.0,1.0,1.0

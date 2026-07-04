@@ -1,0 +1,5 @@
+Fruit,n,n_errors,error_rate
+Banana,269,5,0.0186
+Orange,506,0,0.0
+Pineapple,305,0,0.0
+Tomato,543,0,0.0
